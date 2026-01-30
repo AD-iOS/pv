@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://codeberg.org/ivarch/pv/issues\n"
+"POT-Creation-Date: 2025-12-15 20:10+0000\n"
+"PO-Revision-Date: 2025-01-15 19:08+0000\n"
+"Last-Translator: 0ko <0ko@users.noreply.translate.codeberg.org>\n"
+"Language-Team: Russian <https://translate.codeberg.org/projects/pv/pv/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.9.2\n"
+
+#: src/main/help.c:236
+msgid "show progress bar"
+msgstr "показать полосу прогресса"
+
+#: src/main/help.c:239
+msgid "show elapsed time"
+msgstr "показать прошедшее время"
+
+#: src/main/help.c:242
+msgid "show estimated time of arrival (completion)"
+msgstr "показать примерное время завершения"
+
+#: src/main/help.c:245
+msgid "show absolute estimated time of arrival (completion)"
+msgstr "показать примерное абсолютное время завершения"
+
+#: src/main/help.c:248
+msgid "show data transfer rate counter"
+msgstr "показать скорость передачи данных"
+
+#: src/main/help.c:251
+msgid "show data transfer average rate counter"
+msgstr "показать среднюю скорость передачи данных"
+
+#: src/main/help.c:254
+msgid "show number of bytes transferred"
+msgstr "показать объём переданных данных в байтах"
+
+#: src/main/help.c:257
+msgid "show percentage of transfer buffer in use"
+msgstr "показать использование буфера передачи в процентах"
+
+#: src/main/help.c:259
+msgid "NUM"
+msgstr "КОЛ"
+
+#: src/main/help.c:260
+msgid "show NUM bytes last written"
+msgstr "показать КОЛ байт, переданных в последний раз"
+
+#: src/main/help.c:262
+msgid "FORMAT"
+msgstr "ФОРМАТ"
+
+#: src/main/help.c:263
+msgid "set output format to FORMAT"
+msgstr "указать формат вывода как ФОРМАТ"
+
+#: src/main/help.c:266
+msgid "output percentages, not visual information"
+msgstr "показать проценты вместо визуальной информации"
+
+#: src/main/help.c:269
+msgid "do not output any transfer information at all"
+msgstr "не отображать никакую информацию о передаче"
+
+#: src/main/help.c:273
+msgid "show number of bits transferred"
+msgstr "показать объём переданных данных в битах"
+
+#: src/main/help.c:276
+msgid "treat suffixes as multiples of 1000 rather than 1024"
+msgstr "считать суффиксы как умножители на 1000, а не на 1024"
+
+#: src/main/help.c:279
+msgid "display nothing until first byte transferred"
+msgstr "ничего не показывать, пока не будет передан первый байт"
+
+#: src/main/help.c:281 src/main/help.c:296 src/main/help.c:299
+msgid "SEC"
+msgstr "СЕК"
+
+#: src/main/help.c:282
+msgid "display nothing until SEC seconds have passed"
+msgstr "ничего не показывать, пока не пройдёт СЕК секунд"
+
+#: src/main/help.c:284
+msgid "SIZE"
+msgstr "РАЗМ"
+
+#: src/main/help.c:285
+msgid "set estimated data size to SIZE bytes"
+msgstr "указать ожидаемый объём данных как РАЗМ байт"
+
+#: src/main/help.c:288
+msgid "if size unknown, show rate vs max rate"
+msgstr "если объём неизвестен, показать скорость и макс. скорость"
+
+#: src/main/help.c:291
+msgid "count lines instead of bytes"
+msgstr "считать линии вместо байт"
+
+#: src/main/help.c:294
+msgid "lines are null-terminated"
+msgstr "строки прерываются нулями"
+
+#: src/main/help.c:297
+msgid "update every SEC seconds"
+msgstr "обновлять каждые СЕК секунд"
+
+#: src/main/help.c:300
+msgid "compute average rate over past SEC seconds (default 30s)"
+msgstr "вычислять среднюю скорость за последние СЕК секунд (по умолчанию 30)"
+
+#: src/main/help.c:302
+msgid "WIDTH"
+msgstr "ШИРИНА"
+
+#: src/main/help.c:303
+msgid "assume terminal is WIDTH characters wide"
+msgstr "считать, что в одной строке помещается ШИРИНА символов"
+
+#: src/main/help.c:305
+msgid "HEIGHT"
+msgstr "ВЫСОТА"
+
+#: src/main/help.c:306
+msgid "assume terminal is HEIGHT rows high"
+msgstr "считать, что на экране помещается ВЫСОТА строк"
+
+#: src/main/help.c:308
+msgid "NAME"
+msgstr "ИМЯ"
+
+#: src/main/help.c:309
+msgid "prefix visual information with NAME"
+msgstr "писать ИМЯ до визуальной информации"
+
+#: src/main/help.c:311
+msgid "STYLE"
+msgstr "СТИЛЬ"
+
+#: src/main/help.c:312
+msgid "set default bar style to NAME"
+msgstr "задать стиль полоски по умолчанию как НАЗВАНИЕ"
+
+#: src/main/help.c:314
+msgid "SPEC"
+msgstr ""
+
+#: src/main/help.c:315
+msgid "also send progress to SPEC"
+msgstr ""
+
+#: src/main/help.c:318
+msgid "output transfer statistics at the end"
+msgstr "после завершения показать статистику"
+
+#: src/main/help.c:321
+msgid "output even if standard error is not a terminal"
+msgstr "вевести, даже если стд. ошибка не является терминалом"
+
+#: src/main/help.c:324
+msgid "use cursor positioning escape sequences"
+msgstr ""
+"использовать символьные последовательности для позиционирования курсора"
+
+#: src/main/help.c:327 src/main/help.c:360 src/main/help.c:376
+#: src/main/help.c:386
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: src/main/help.c:328
+msgid "write output to FILE instead of stdout"
+msgstr "направить вывод в ФАЙЛ вместо стд. вывода"
+
+#: src/main/help.c:330
+msgid "RATE"
+msgstr "СКОР"
+
+#: src/main/help.c:331
+msgid "limit transfer to RATE bytes per second"
+msgstr "ограничить скорость передачи до СКОР байт/сек"
+
+#: src/main/help.c:333 src/main/help.c:342
+msgid "BYTES"
+msgstr "БАЙТ"
+
+#: src/main/help.c:334
+msgid "use a buffer size of BYTES"
+msgstr "использовать буфер размера БАЙТ"
+
+#: src/main/help.c:337
+msgid "never use splice(), always use read/write"
+msgstr "использовать чтение/запись вместо splice()"
+
+#: src/main/help.c:340
+msgid "skip read errors in input"
+msgstr "пропустить ошибки чтения во вводе"
+
+#: src/main/help.c:343
+msgid "skip errors in BYTES blocks at a time"
+msgstr "пропускать ошибки в <БАЙТ> блоках за раз"
+
+#: src/main/help.c:346
+msgid "stop after --size bytes have been transferred"
+msgstr "остановить после передачи --size байт"
+
+#: src/main/help.c:349
+msgid "flush cache to disk after every write"
+msgstr "сбрасывать кеш на диск каждый раз"
+
+#: src/main/help.c:352
+msgid "use direct I/O to bypass cache"
+msgstr "использовать прямой ввод/вывод для обхода кеша"
+
+#: src/main/help.c:355
+msgid "try to seek instead of writing null bytes"
+msgstr ""
+
+#: src/main/help.c:358
+msgid "discard input instead of writing to output"
+msgstr "отбрасывать ввод вместо записи в вывод"
+
+#: src/main/help.c:361
+msgid "write all input to FILE before writing to output"
+msgstr "записывать весь ввод в ФАЙЛ прежде, чем отправлять на вывод"
+
+#: src/main/help.c:364
+msgid "PID[:FD]|=NAME|@LISTFILE"
+msgstr ""
+
+#: src/main/help.c:365
+msgid "watch file FD opened by process PID"
+msgstr "следить за FD файла, открытого процессом ИДпр"
+
+#: src/main/help.c:368 src/main/help.c:371
+msgid "PID"
+msgstr "ИДпр"
+
+#: src/main/help.c:369
+msgid "update settings of process PID"
+msgstr "обновить настройки ИДпр процесса"
+
+#: src/main/help.c:372
+msgid "show progress of process PID"
+msgstr ""
+
+#: src/main/help.c:377
+msgid "save process ID in FILE"
+msgstr "сохранить ИД процесса в ФАЙЛ"
+
+#: src/main/help.c:380
+msgid "show this help and exit"
+msgstr "показать справку и завершить работу"
+
+#: src/main/help.c:383
+msgid "show version information and exit"
+msgstr "показать версию программы и завершить работу"
+
+#: src/main/help.c:387
+msgid "write debug logs to FILE"
+msgstr "вести запись отладочного журнала в ФАЙЛ"
+
+#: src/main/help.c:413
+#, c-format
+msgid "Usage: %s [OPTION] [FILE]..."
+msgstr "Использование: %s [ОПЦИИ] [ФАЙЛ]..."
+
+#: src/main/help.c:424
+msgid ""
+"Concatenate FILE(s), or standard input, to standard output, with monitoring."
+msgstr ""
+
+#: src/main/help.c:562
+msgid "Supported format sequences:"
+msgstr "Поддерживаемые последовательности:"
+
+#: src/main/help.c:576
+#, c-format
+msgid "Please report any bugs to: %s"
+msgstr "Сообщайте о проблемах на: %s"
+
+#: src/main/main.c:228
+msgid "(input)"
+msgstr "(ввод)"
+
+#: src/main/main.c:330
+msgid "state allocation failed"
+msgstr ""
+
+#: src/main/options.c:370
+msgid "list files may not contain @ lines"
+msgstr ""
+
+#: src/main/options.c:391 src/main/options.c:393 src/main/options.c:807
+msgid "process ID or pid:fd pair expected"
+msgstr "ожидался ИД процесса или пара ИДпр:ДФ"
+
+#: src/main/options.c:403 src/main/options.c:405 src/main/options.c:814
+msgid "invalid process ID"
+msgstr "неправильный ИД процесса"
+
+#: src/main/options.c:448 src/pv/file.c:342
+msgid "failed to stat file"
+msgstr "не удалось получить информацию о файле"
+
+#: src/main/options.c:462
+msgid "is a directory"
+msgstr "является каталогом"
+
+#: src/main/options.c:491
+msgid "failed to generate sysfs filename"
+msgstr "не удалось создать имя файла sysfs"
+
+#: src/main/options.c:513
+msgid "failed to read sysfs size file"
+msgstr "не удалось узнать размер файла sysfs"
+
+#: src/main/options.c:533
+msgid "failed to open block device"
+msgstr "не удалось открыть блочное устройство"
+
+#: src/main/options.c:543
+msgid "failed to determine size of block device"
+msgstr "не удалось определить размер блочного устройства"
+
+#: src/main/options.c:652
+msgid "option structure allocation failed"
+msgstr "не удалось выделить память для структуры опций"
+
+#: src/main/options.c:671
+msgid "option structure argv allocation failed"
+msgstr "не удалось выделить память для структуры опций argv"
+
+#: src/main/options.c:723
+msgid "numeric value not understood"
+msgstr "число не распознано"
+
+#: src/main/options.c:743
+msgid "integer argument expected"
+msgstr "ожидалось целое число"
+
+#: src/main/options.c:755
+msgid "numeric argument expected"
+msgstr "ожидалось число"
+
+#: src/main/options.c:767
+msgid "missing filename"
+msgstr ""
+
+#: src/main/options.c:795
+msgid "missing process name"
+msgstr ""
+
+#: src/main/options.c:1056
+#, c-format
+msgid "Try `%s --help' for more information."
+msgstr "Выполните `%s --help' для получения подробностей."
+
+#: src/main/options.c:1058
+#, c-format
+msgid "Try `%s -h' for more information."
+msgstr "Выполните `%s -h' для получения подробностей."
+
+#: src/main/options.c:1089
+msgid ""
+"cannot use line mode or transfer modifier options when watching file "
+"descriptors"
+msgstr ""
+
+#: src/main/options.c:1098
+msgid "cannot use cursor positioning when watching file descriptors"
+msgstr ""
+
+#: src/main/options.c:1107
+msgid "cannot use remote control when watching file descriptors"
+msgstr "удалённое управление невозможно при отслеживании дескрипторов файлов"
+
+#: src/main/options.c:1116
+msgid "cannot use remote query when watching file descriptors"
+msgstr ""
+
+#: src/main/options.c:1125
+msgid "cannot transfer files when watching file descriptors"
+msgstr "передача файлов невозможна при отслеживании дескрипторов файлов"
+
+#: src/main/options.c:1150
+msgid "not available on systems without /proc/self/fdinfo"
+msgstr "невозможно на системах без /proc/self/fdinfo"
+
+#: src/main/options.c:1162
+msgid "cannot use remote control and remote query together"
+msgstr ""
+
+#: src/main/options.c:1189
+msgid "files cannot be specified with this option"
+msgstr ""
+
+#: src/main/version.c:28
+msgid "License: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+msgstr "Лицензия: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+
+#: src/main/version.c:29
+msgid "This is free software: you are free to change and redistribute it."
+msgstr "Это свободная программа. Вы можете изменять и распространять её."
+
+#: src/main/version.c:30
+msgid "There is NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Разработчики не дают никаких гарантий, связанных с работой этой программы, "
+"насколько это юридически возможно."
+
+#: src/main/version.c:32
+msgid "Project web site"
+msgstr "Веб-сайт проекта"
+
+#: src/pv/cursor.c:61
+msgid "failed to get terminal name"
+msgstr "не удалось получить имя терминала"
+
+#: src/pv/cursor.c:106
+msgid "failed to open lock file"
+msgstr "не удалось открыть блокирующий файл"
+
+#: src/pv/cursor.c:139
+msgid "lock attempt failed"
+msgstr "попытка блокировки не удалась"
+
+#: src/pv/cursor.c:400
+msgid "failed to open terminal"
+msgstr "не удалось открыть терминал"
+
+#: src/pv/display.c:285
+msgid "yzafpnum kMGTPEZY"
+msgstr ""
+
+#: src/pv/display.c:303
+msgid "yzafpnum KMGTPEZY"
+msgstr ""
+
+#: src/pv/display.c:1053 src/pv/state.c:842 src/pv/transfer.c:1135
+msgid "buffer allocation failed"
+msgstr "не удалось выделить память для буфера"
+
+#: src/pv/file.c:153
+msgid "failed to seek to start of output"
+msgstr ""
+
+#: src/pv/file.c:303
+msgid "failed to close file"
+msgstr "не удалось закрыть файл"
+
+#: src/pv/file.c:335
+msgid "failed to read file"
+msgstr "не удалось прочесть файл"
+
+#: src/pv/file.c:350
+msgid "failed to stat output file"
+msgstr "не удалось получить информацию о выходном файле"
+
+#: src/pv/file.c:372
+msgid "input file is output file"
+msgstr "пути исходного и выходного файлов одинаковы"
+
+#: src/pv/file.c:429
+msgid "(none)"
+msgstr "(нет)"
+
+#: src/pv/file.c:431
+msgid "(stdin)"
+msgstr "(стд. ввод)"
+
+#: src/pv/format/averagerate.c:34 src/pv/format/progressbar.c:92
+#: src/pv/format/rate.c:36 src/pv/loop.c:121
+msgid "b/s"
+msgstr "бит/с"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40
+msgid "/s"
+msgstr "/с"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40 src/pv/loop.c:121
+msgid "B/s"
+msgstr "байт/с"
+
+#: src/pv/format/bytes.c:35
+msgid "b"
+msgstr "бит"
+
+#: src/pv/format/bytes.c:39 src/pv/transfer.c:620
+msgid "B"
+msgstr "байт"
+
+#: src/pv/format/eta.c:52 src/pv/format/eta.c:56
+msgid "ETA"
+msgstr "ОЖИД"
+
+#: src/pv/format/fineta.c:80
+msgid "FIN"
+msgstr "ЗАВЕРШ"
+
+#: src/pv/loop.c:120
+msgid "rate min/avg/max/mdev"
+msgstr "скор. мин/сред/макс/дев"
+
+#: src/pv/loop.c:132
+msgid "rate not measured"
+msgstr "скорость не изменяется"
+
+#: src/pv/loop.c:802 src/pv/loop.c:818 src/pv/loop.c:836 src/pv/watchpid.c:101
+#: src/pv/watchpid.c:110 src/pv/watchpid.c:121 src/pv/watchpid.c:129
+#: src/pv/watchpid.c:166 src/pv/watchpid.c:185 src/pv/watchpid.c:193
+#: src/pv/watchpid.c:203 src/pv/watchpid.c:307 src/pv/watchpid.c:315
+#: src/pv/watchpid.c:447 src/pv/watchpid.c:470
+msgid "pid"
+msgstr "ИДпр"
+
+#: src/pv/loop.c:836 src/pv/watchpid.c:110 src/pv/watchpid.c:122
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:185 src/pv/watchpid.c:194
+#: src/pv/watchpid.c:205
+msgid "fd"
+msgstr "дф"
+
+#: src/pv/remote.c:237 src/pv/remote.c:622
+msgid "message not received"
+msgstr "сообщение не получено"
+
+#: src/pv/remote.c:644 src/pv/remote.c:662
+msgid "SA_SIGINFO not supported on this system"
+msgstr "Этой системой не поддерживается SA_SIGINFO"
+
+#: src/pv/state.c:42
+msgid "history structure allocation failed"
+msgstr "не удалось выделить память для структуры истории"
+
+#: src/pv/state.c:794 src/pv/state.c:806
+msgid "file list allocation failed"
+msgstr "не удалось выделить память для списка файлов"
+
+#: src/pv/transfer.c:490
+msgid "read failed"
+msgstr "чтение не удалось"
+
+#: src/pv/transfer.c:506
+msgid "warning: read errors detected"
+msgstr "внимание: замечены ошибки чтения"
+
+#: src/pv/transfer.c:522
+msgid "file is not seekable"
+msgstr ""
+
+#: src/pv/transfer.c:599
+msgid "failed to seek past error"
+msgstr ""
+
+#: src/pv/transfer.c:619
+msgid "skipped past read error"
+msgstr ""
+
+#: src/pv/transfer.c:663
+msgid "no transfer buffer allocated"
+msgstr "не выделена память для буфера передачи"
+
+#: src/pv/transfer.c:751
+msgid "failed to set interval timer"
+msgstr "не удалось задать измеритель временного промежутка"
+
+#: src/pv/transfer.c:777
+msgid "failed to clear interval timer"
+msgstr "не удалось очистить измеритель временного промежутка"
+
+#: src/pv/transfer.c:822
+msgid "line position buffer allocation failed"
+msgstr ""
+
+#: src/pv/transfer.c:996
+msgid "write failed"
+msgstr "запись не удалась"
+
+#: src/pv/transfer.c:1237
+msgid "select call failed"
+msgstr "запрос выборки не удался"
+
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:205
+msgid "not a regular file or block device"
+msgstr "не является обычным файлом или блочным устройством"
+
+#~ msgid "PID[:FD]"
+#~ msgstr "ИДпр[:FD]"

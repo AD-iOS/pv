@@ -1,0 +1,619 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://codeberg.org/ivarch/pv/issues\n"
+"POT-Creation-Date: 2025-12-15 20:10+0000\n"
+"PO-Revision-Date: 2025-01-14 20:39+0000\n"
+"Last-Translator: Benny <benny@users.noreply.translate.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/pv/pv/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
+"Date: 1999-06-01 15:18:29+0100\n"
+"From: Andrew Wood <ivarch@ubik>\n"
+"Xgettext-Options: --default-domain=pkgbuild --directory=./.pkgdir --add-"
+"comments --keyword=_ --keyword=N_\n"
+"Files: src/getopt/getopt.c src/getopt/getopt1.c src/version.c src/main/init."
+"c src/main/help.c src/main/xpmptr.c src/guts/load.c src/guts/stop.c src/guts/"
+"configure.c src/guts/make.c src/guts/install.c src/guts/prefs.c src/ui/"
+"generate.c src/ui/main.c src/ui/xpm.c src/ui/status.c src/ui/activate.c src/"
+"ui/handlers/main.c src/ui/handlers/package.c src/ui/handlers/prefs.c src/ui/"
+"handlers/dirsel.c src/ui/handlers/popup.c src/ui/handlers/help.c src/ui/"
+"textout.c src/ui/report.c src/ui/callback.c src/nls/intl/bindtextdom.c src/"
+"nls/intl/dcgettext.c src/nls/intl/dgettext.c src/nls/intl/finddomain.c src/"
+"nls/intl/gettext.c src/nls/intl/loadmsgcat.c src/nls/intl/localealias.c src/"
+"nls/intl/textdomain.c src/nls/intl-cat/cat-compat.c src/nls/intl-gett/intl-"
+"compat.c\n"
+
+#: src/main/help.c:236
+msgid "show progress bar"
+msgstr "Fortschritts-Anzeige"
+
+#: src/main/help.c:239
+msgid "show elapsed time"
+msgstr "zeige die verstrichene Zeit an"
+
+#: src/main/help.c:242
+msgid "show estimated time of arrival (completion)"
+msgstr "zeige die erwartete Zeit bis zum Ende an"
+
+#: src/main/help.c:245
+msgid "show absolute estimated time of arrival (completion)"
+msgstr "zeige die absolute geschätzte Zeit bis zur Fertigstellung"
+
+#: src/main/help.c:248
+msgid "show data transfer rate counter"
+msgstr "zeige die Datentransferrate an"
+
+#: src/main/help.c:251
+msgid "show data transfer average rate counter"
+msgstr "zeige die durchschnittliche Übertragungsrate"
+
+#: src/main/help.c:254
+msgid "show number of bytes transferred"
+msgstr "zeige die Anzahl der übertragenen Bytes"
+
+#: src/main/help.c:257
+msgid "show percentage of transfer buffer in use"
+msgstr "zeige, wie viel Prozent des Übertragungsbuffers in Benutzung sind"
+
+#: src/main/help.c:259
+msgid "NUM"
+msgstr "NUM"
+
+#: src/main/help.c:260
+msgid "show NUM bytes last written"
+msgstr "NUM zeige die zuletzt geschriebenen NUM Bytes"
+
+#: src/main/help.c:262
+msgid "FORMAT"
+msgstr "FORMAT"
+
+#: src/main/help.c:263
+msgid "set output format to FORMAT"
+msgstr "setze das Ausgabeformat auf FORMAT"
+
+#: src/main/help.c:266
+msgid "output percentages, not visual information"
+msgstr "Ausgabe von Prozent-Angaben statt visueller Darstellung"
+
+#: src/main/help.c:269
+msgid "do not output any transfer information at all"
+msgstr "sämtliche Transferinformationen unterdrücken"
+
+#: src/main/help.c:273
+msgid "show number of bits transferred"
+msgstr "zeige die Anzahl der übertragenen Bits"
+
+#: src/main/help.c:276
+msgid "treat suffixes as multiples of 1000 rather than 1024"
+msgstr "behandle Endungen als Vielfache von 1000 statt von 1024"
+
+#: src/main/help.c:279
+msgid "display nothing until first byte transferred"
+msgstr "keine Ausgabe bevor das erste Byte übertragen wurde"
+
+#: src/main/help.c:281 src/main/help.c:296 src/main/help.c:299
+msgid "SEC"
+msgstr "SEK"
+
+#: src/main/help.c:282
+msgid "display nothing until SEC seconds have passed"
+msgstr "nichts anzeigen ehe SEK Sekunden vergangen sind"
+
+#: src/main/help.c:284
+msgid "SIZE"
+msgstr "GRÖẞE"
+
+#: src/main/help.c:285
+msgid "set estimated data size to SIZE bytes"
+msgstr "setze erwartete Datenlänge auf SIZE Byte"
+
+#: src/main/help.c:288
+msgid "if size unknown, show rate vs max rate"
+msgstr "zeige Rate vs maximale Rate, falls die größe unbekannt ist"
+
+#: src/main/help.c:291
+msgid "count lines instead of bytes"
+msgstr "zähle Zeilen anstelle von Bytes"
+
+#: src/main/help.c:294
+msgid "lines are null-terminated"
+msgstr "Zeilen sind nullterminiert"
+
+#: src/main/help.c:297
+msgid "update every SEC seconds"
+msgstr "aktualisiere Ausgabe nach SEK Sekunden Intervall"
+
+#: src/main/help.c:300
+msgid "compute average rate over past SEC seconds (default 30s)"
+msgstr ""
+"berechne die durchschnittliche Übertragungsrate über die letzten SEK "
+"Sekunden (Standard 30s)"
+
+#: src/main/help.c:302
+msgid "WIDTH"
+msgstr "BREITE"
+
+#: src/main/help.c:303
+msgid "assume terminal is WIDTH characters wide"
+msgstr "setze Terminal-Breite auf BREITE Zeichen"
+
+#: src/main/help.c:305
+msgid "HEIGHT"
+msgstr "HÖHE"
+
+#: src/main/help.c:306
+msgid "assume terminal is HEIGHT rows high"
+msgstr "setze Terminal-Höhe auf HÖHE Zeichen"
+
+#: src/main/help.c:308
+msgid "NAME"
+msgstr "NAME"
+
+#: src/main/help.c:309
+msgid "prefix visual information with NAME"
+msgstr "setze den NAMEn für visuelle Darstellung"
+
+#: src/main/help.c:311
+msgid "STYLE"
+msgstr "Stil"
+
+#: src/main/help.c:312
+msgid "set default bar style to NAME"
+msgstr "setze die voreingestellte Darstellung auf NAME"
+
+#: src/main/help.c:314
+msgid "SPEC"
+msgstr "STIL"
+
+#: src/main/help.c:315
+msgid "also send progress to SPEC"
+msgstr "Fortschritt auch an SPEC senden"
+
+#: src/main/help.c:318
+msgid "output transfer statistics at the end"
+msgstr "Übertragungsstatistiken am Ende ausgeben"
+
+#: src/main/help.c:321
+msgid "output even if standard error is not a terminal"
+msgstr ""
+"Ausgabe auch dann erzwingen, wenn der Fehlerausgabe-Kanal kein Terminal ist"
+
+#: src/main/help.c:324
+msgid "use cursor positioning escape sequences"
+msgstr "benutze Escape-Sequenzen zur Cursor-Positionierung"
+
+#: src/main/help.c:327 src/main/help.c:360 src/main/help.c:376
+#: src/main/help.c:386
+msgid "FILE"
+msgstr "DATEI"
+
+#: src/main/help.c:328
+msgid "write output to FILE instead of stdout"
+msgstr "schreibe die Ausgabe in DATEI statt in die Standardausgabe"
+
+#: src/main/help.c:330
+msgid "RATE"
+msgstr "RATE"
+
+#: src/main/help.c:331
+msgid "limit transfer to RATE bytes per second"
+msgstr "beschränke die Transferrate auf RATE Byte pro Sekunde"
+
+#: src/main/help.c:333 src/main/help.c:342
+msgid "BYTES"
+msgstr "BYTES"
+
+#: src/main/help.c:334
+msgid "use a buffer size of BYTES"
+msgstr "benutze einen Puffer in der Größe von BYTES"
+
+#: src/main/help.c:337
+msgid "never use splice(), always use read/write"
+msgstr "anstelle von splice() immer read/write benutzen"
+
+#: src/main/help.c:340
+msgid "skip read errors in input"
+msgstr "Lesefehler in der Eingabe nicht beachten"
+
+#: src/main/help.c:343
+msgid "skip errors in BYTES blocks at a time"
+msgstr "bei Fehlern BYTES am Stück überspringen"
+
+#: src/main/help.c:346
+msgid "stop after --size bytes have been transferred"
+msgstr "anhalten, nachdem --size Bytes übertragen wurden"
+
+#: src/main/help.c:349
+msgid "flush cache to disk after every write"
+msgstr "schreibe den Cache nach jedem Schreibvorgang auf die Festplatte"
+
+#: src/main/help.c:352
+msgid "use direct I/O to bypass cache"
+msgstr "verwende direkte E/A, um den Cache zu umgehen"
+
+#: src/main/help.c:355
+msgid "try to seek instead of writing null bytes"
+msgstr ""
+
+#: src/main/help.c:358
+msgid "discard input instead of writing to output"
+msgstr "verwirf die Eingabe anstatt in die Ausgabe zu schreiben"
+
+#: src/main/help.c:361
+msgid "write all input to FILE before writing to output"
+msgstr "Ausgabe nach FILE schrieben bevor sie ausgegeben wird"
+
+#: src/main/help.c:364
+msgid "PID[:FD]|=NAME|@LISTFILE"
+msgstr ""
+
+#: src/main/help.c:365
+msgid "watch file FD opened by process PID"
+msgstr "die vom Prozess PID geöffnete Datei FD beobachten"
+
+#: src/main/help.c:368 src/main/help.c:371
+msgid "PID"
+msgstr "PID"
+
+#: src/main/help.c:369
+msgid "update settings of process PID"
+msgstr "Einstellungen der Prozess-PID updaten"
+
+#: src/main/help.c:372
+msgid "show progress of process PID"
+msgstr ""
+
+#: src/main/help.c:377
+msgid "save process ID in FILE"
+msgstr "Prozess-ID in DATEI speichern"
+
+#: src/main/help.c:380
+msgid "show this help and exit"
+msgstr "zeige diese Hilfe und beende"
+
+#: src/main/help.c:383
+msgid "show version information and exit"
+msgstr "zeige Versionsinformationen und beende"
+
+#: src/main/help.c:387
+msgid "write debug logs to FILE"
+msgstr "schreibe Debug-Protokolle in DATEI"
+
+#: src/main/help.c:413
+#, c-format
+msgid "Usage: %s [OPTION] [FILE]..."
+msgstr "Aufruf: %s [OPTION] [DATEI]..."
+
+#: src/main/help.c:424
+msgid ""
+"Concatenate FILE(s), or standard input, to standard output, with monitoring."
+msgstr ""
+"Verbindet DATEI(en) oder den Standard-Eingabe-Kanal mit dem Standard-Ausgabe-"
+"Kanal und misst den Datenstrom."
+
+#: src/main/help.c:562
+msgid "Supported format sequences:"
+msgstr "unterstützte Formate:"
+
+#: src/main/help.c:576
+#, c-format
+msgid "Please report any bugs to: %s"
+msgstr "Bitte senden Sie Fehlerberichte an %s"
+
+#: src/main/main.c:228
+msgid "(input)"
+msgstr "(eingabe)"
+
+#: src/main/main.c:330
+msgid "state allocation failed"
+msgstr "Speicherzuweisung für `state' fehlgeschlagen"
+
+#: src/main/options.c:370
+msgid "list files may not contain @ lines"
+msgstr ""
+
+#: src/main/options.c:391 src/main/options.c:393 src/main/options.c:807
+msgid "process ID or pid:fd pair expected"
+msgstr "Prozess-ID oder PID:FD-Paar erwartet"
+
+#: src/main/options.c:403 src/main/options.c:405 src/main/options.c:814
+msgid "invalid process ID"
+msgstr "ungültige Prozess-ID"
+
+#: src/main/options.c:448 src/pv/file.c:342
+msgid "failed to stat file"
+msgstr "konnte Dateiinformationen nicht lesen"
+
+#: src/main/options.c:462
+msgid "is a directory"
+msgstr "ist ein Verzeichnis"
+
+#: src/main/options.c:491
+msgid "failed to generate sysfs filename"
+msgstr "konnte Sysfs-Dateinamen nicht erzeugen"
+
+#: src/main/options.c:513
+msgid "failed to read sysfs size file"
+msgstr "konnte Größe der Sysfs-Datei nicht lesen"
+
+#: src/main/options.c:533
+msgid "failed to open block device"
+msgstr "konnte Blockgerät nicht öffnen"
+
+#: src/main/options.c:543
+msgid "failed to determine size of block device"
+msgstr "konnte Größe des Blockgeräts nicht ermitteln"
+
+#: src/main/options.c:652
+msgid "option structure allocation failed"
+msgstr "Speicherzuweisung für `option' fehlgeschlagen"
+
+#: src/main/options.c:671
+msgid "option structure argv allocation failed"
+msgstr "Speicherzuweisung für `argv' der Option fehlgeschlagen"
+
+#: src/main/options.c:723
+msgid "numeric value not understood"
+msgstr "numerischen Wert nicht verstanden"
+
+#: src/main/options.c:743
+msgid "integer argument expected"
+msgstr "Ganzzahliges Argument erwartet"
+
+#: src/main/options.c:755
+msgid "numeric argument expected"
+msgstr "numerisches Argument erwartet"
+
+#: src/main/options.c:767
+msgid "missing filename"
+msgstr ""
+
+#: src/main/options.c:795
+msgid "missing process name"
+msgstr ""
+
+#: src/main/options.c:1056
+#, c-format
+msgid "Try `%s --help' for more information."
+msgstr "`%s --help' zeigt weitere Informationen an."
+
+#: src/main/options.c:1058
+#, c-format
+msgid "Try `%s -h' for more information."
+msgstr "`%s -h' zeigt weitere Informationen an."
+
+#: src/main/options.c:1089
+msgid ""
+"cannot use line mode or transfer modifier options when watching file "
+"descriptors"
+msgstr ""
+"Beim Beobachten von Dateideskriptoren können keine Optionen für den "
+"Zeilenmodus oder den Übertragungsmodifikator verwendet werden"
+
+#: src/main/options.c:1098
+msgid "cannot use cursor positioning when watching file descriptors"
+msgstr ""
+"Beim Beobachten von Dateideskriptoren kann Cursor-Positionierung nicht "
+"verwendet werden"
+
+#: src/main/options.c:1107
+msgid "cannot use remote control when watching file descriptors"
+msgstr ""
+"Beim Beobachten von Dateideskriptoren kann die Fernbedienung nicht verwenden "
+"werden"
+
+#: src/main/options.c:1116
+msgid "cannot use remote query when watching file descriptors"
+msgstr ""
+
+#: src/main/options.c:1125
+msgid "cannot transfer files when watching file descriptors"
+msgstr ""
+"Beim Beobachten von Dateideskriptoren können Dateien nicht übertragen werden"
+
+#: src/main/options.c:1150
+msgid "not available on systems without /proc/self/fdinfo"
+msgstr "Nicht verfügbar auf Systemen ohne /proc/self/fdinfo"
+
+#: src/main/options.c:1162
+msgid "cannot use remote control and remote query together"
+msgstr ""
+
+#: src/main/options.c:1189
+msgid "files cannot be specified with this option"
+msgstr ""
+
+#: src/main/version.c:28
+msgid "License: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+msgstr "Lizenz: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+
+#: src/main/version.c:29
+msgid "This is free software: you are free to change and redistribute it."
+msgstr "Dies ist freie Software: Sie dürfen sie verändern und weiterverteilen."
+
+#: src/main/version.c:30
+msgid "There is NO WARRANTY, to the extent permitted by law."
+msgstr "Es besteht KEINE GARANTIE, soweit dies gesetzlich zulässig ist."
+
+#: src/main/version.c:32
+msgid "Project web site"
+msgstr "Projekt-Website"
+
+#: src/pv/cursor.c:61
+msgid "failed to get terminal name"
+msgstr "konnte Terminalname nicht lesen"
+
+#: src/pv/cursor.c:106
+msgid "failed to open lock file"
+msgstr "konnte Sperrdatei nicht öffnen"
+
+#: src/pv/cursor.c:139
+msgid "lock attempt failed"
+msgstr "Sperrversuch fehlgeschlagen"
+
+#: src/pv/cursor.c:400
+msgid "failed to open terminal"
+msgstr "konnte Terminal nicht öffnen"
+
+#: src/pv/display.c:285
+msgid "yzafpnum kMGTPEZY"
+msgstr "yzafpnµm kMGTPEZY"
+
+#: src/pv/display.c:303
+msgid "yzafpnum KMGTPEZY"
+msgstr "yzafpnµm KMGTPEZY"
+
+#: src/pv/display.c:1053 src/pv/state.c:842 src/pv/transfer.c:1135
+msgid "buffer allocation failed"
+msgstr "Speicherzuweisung für den Puffer fehlgeschlagen"
+
+#: src/pv/file.c:153
+msgid "failed to seek to start of output"
+msgstr "Konnte nicht zum Anfang der Ausgabe springen"
+
+#: src/pv/file.c:303
+msgid "failed to close file"
+msgstr "konnte Datei nicht schließen"
+
+#: src/pv/file.c:335
+msgid "failed to read file"
+msgstr "konnte Datei nicht lesen"
+
+#: src/pv/file.c:350
+msgid "failed to stat output file"
+msgstr "konnte Dateiinformationen für Ausgabe-Datei nicht lesen"
+
+#: src/pv/file.c:372
+msgid "input file is output file"
+msgstr "Eingabe-Datei ist Ausgabe-Datei"
+
+#: src/pv/file.c:429
+msgid "(none)"
+msgstr "(keine)"
+
+#: src/pv/file.c:431
+msgid "(stdin)"
+msgstr "(stdin)"
+
+#: src/pv/format/averagerate.c:34 src/pv/format/progressbar.c:92
+#: src/pv/format/rate.c:36 src/pv/loop.c:121
+msgid "b/s"
+msgstr "b/s"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40
+msgid "/s"
+msgstr "/s"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40 src/pv/loop.c:121
+msgid "B/s"
+msgstr "B/s"
+
+#: src/pv/format/bytes.c:35
+msgid "b"
+msgstr "b"
+
+#: src/pv/format/bytes.c:39 src/pv/transfer.c:620
+msgid "B"
+msgstr "B"
+
+#: src/pv/format/eta.c:52 src/pv/format/eta.c:56
+msgid "ETA"
+msgstr "ETA"
+
+#: src/pv/format/fineta.c:80
+msgid "FIN"
+msgstr "Endzeit"
+
+#: src/pv/loop.c:120
+msgid "rate min/avg/max/mdev"
+msgstr "Rate min/mittel/max/abweichung"
+
+#: src/pv/loop.c:132
+msgid "rate not measured"
+msgstr "Übertragungsrate nicht gemessen"
+
+#: src/pv/loop.c:802 src/pv/loop.c:818 src/pv/loop.c:836 src/pv/watchpid.c:101
+#: src/pv/watchpid.c:110 src/pv/watchpid.c:121 src/pv/watchpid.c:129
+#: src/pv/watchpid.c:166 src/pv/watchpid.c:185 src/pv/watchpid.c:193
+#: src/pv/watchpid.c:203 src/pv/watchpid.c:307 src/pv/watchpid.c:315
+#: src/pv/watchpid.c:447 src/pv/watchpid.c:470
+msgid "pid"
+msgstr "pid"
+
+#: src/pv/loop.c:836 src/pv/watchpid.c:110 src/pv/watchpid.c:122
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:185 src/pv/watchpid.c:194
+#: src/pv/watchpid.c:205
+msgid "fd"
+msgstr "fd"
+
+#: src/pv/remote.c:237 src/pv/remote.c:622
+msgid "message not received"
+msgstr "Nachricht nicht empfangen"
+
+#: src/pv/remote.c:644 src/pv/remote.c:662
+msgid "SA_SIGINFO not supported on this system"
+msgstr "SA_SIGINFO wird auf diesem System nicht unterstützt"
+
+#: src/pv/state.c:42
+msgid "history structure allocation failed"
+msgstr "Speicherzuweisung für `history' fehlgeschlagen"
+
+#: src/pv/state.c:794 src/pv/state.c:806
+msgid "file list allocation failed"
+msgstr "Speicherzuweisung für die Dateiliste fehlgeschlagen"
+
+#: src/pv/transfer.c:490
+msgid "read failed"
+msgstr "read-Aufruf fehlgeschlagen"
+
+#: src/pv/transfer.c:506
+msgid "warning: read errors detected"
+msgstr "warnung: lesefehler erkannt"
+
+#: src/pv/transfer.c:522
+msgid "file is not seekable"
+msgstr "Datei ist nicht durchsuchbar"
+
+#: src/pv/transfer.c:599
+msgid "failed to seek past error"
+msgstr "konnte den Fehler nicht überwinden"
+
+#: src/pv/transfer.c:619
+msgid "skipped past read error"
+msgstr "über den Lesefehler hinaus verschoben"
+
+#: src/pv/transfer.c:663
+msgid "no transfer buffer allocated"
+msgstr "Speicherzuweisung für den Transferpuffer fehlgeschlagen"
+
+#: src/pv/transfer.c:751
+msgid "failed to set interval timer"
+msgstr "konnte Intervall-Timer nicht setzen"
+
+#: src/pv/transfer.c:777
+msgid "failed to clear interval timer"
+msgstr "konnte Intervall-Timer nicht löschen"
+
+#: src/pv/transfer.c:822
+msgid "line position buffer allocation failed"
+msgstr "Zuweisung des Zeilenpuffers fehlgeschlagen"
+
+#: src/pv/transfer.c:996
+msgid "write failed"
+msgstr "write-Aufruf fehlgeschlagen"
+
+#: src/pv/transfer.c:1237
+msgid "select call failed"
+msgstr "select-Aufruf fehlgeschlagen"
+
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:205
+msgid "not a regular file or block device"
+msgstr "ist weder eine normale Datei noch ein Blockgerät"
+
+#~ msgid "PID[:FD]"
+#~ msgstr "PID[:FD]"

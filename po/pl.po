@@ -1,0 +1,622 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://codeberg.org/ivarch/pv/issues\n"
+"POT-Creation-Date: 2025-12-15 20:10+0000\n"
+"PO-Revision-Date: 2025-10-02 13:23+0000\n"
+"Last-Translator: Coral Pink <coralpink@noreply.codeberg.org>\n"
+"Language-Team: Polish <https://translate.codeberg.org/projects/pv/pv/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.13.2\n"
+
+#: src/main/help.c:236
+msgid "show progress bar"
+msgstr "pokaż pasek postępu"
+
+#: src/main/help.c:239
+msgid "show elapsed time"
+msgstr "pokaż upływający czas"
+
+#: src/main/help.c:242
+msgid "show estimated time of arrival (completion)"
+msgstr "pokaż szacowany czas ukończenia"
+
+#: src/main/help.c:245
+msgid "show absolute estimated time of arrival (completion)"
+msgstr "pokaż bezwzględny szacowany czas ukończenia"
+
+#: src/main/help.c:248
+msgid "show data transfer rate counter"
+msgstr "pokaż licznik prędkości przesyłania"
+
+#: src/main/help.c:251
+msgid "show data transfer average rate counter"
+msgstr "pokaż licznik uśrednionej prędkości przesyłania"
+
+#: src/main/help.c:254
+msgid "show number of bytes transferred"
+msgstr "pokaż ilość przesłanych bajtów"
+
+#: src/main/help.c:257
+msgid "show percentage of transfer buffer in use"
+msgstr "pokaż procentowe użycie bufora transferu"
+
+#: src/main/help.c:259
+msgid "NUM"
+msgstr "LICZBA"
+
+#: src/main/help.c:260
+msgid "show NUM bytes last written"
+msgstr "pokaż ostatnie LICZBA przesłanych bajtów"
+
+#: src/main/help.c:262
+msgid "FORMAT"
+msgstr "FORMAT"
+
+#: src/main/help.c:263
+msgid "set output format to FORMAT"
+msgstr "ustaw FORMAT jako format wyjściowy"
+
+#: src/main/help.c:266
+msgid "output percentages, not visual information"
+msgstr "wyświetl wyjście procentowo, bez graficznej prezentacji"
+
+#: src/main/help.c:269
+msgid "do not output any transfer information at all"
+msgstr "nie wyświetlaj żadnych informacji o przesyłaniu"
+
+#: src/main/help.c:273
+msgid "show number of bits transferred"
+msgstr "pokaż ilość przesłanych bitów"
+
+#: src/main/help.c:276
+msgid "treat suffixes as multiples of 1000 rather than 1024"
+msgstr "traktuj przyrostki jako wielokrotności 1000 zamiast 1024"
+
+#: src/main/help.c:279
+msgid "display nothing until first byte transferred"
+msgstr "nie wyświetlaj nic aż do pierwszego przesłanego bajtu"
+
+#: src/main/help.c:281 src/main/help.c:296 src/main/help.c:299
+msgid "SEC"
+msgstr "SEKUNDY"
+
+#: src/main/help.c:282
+msgid "display nothing until SEC seconds have passed"
+msgstr "nie wyświetlaj nic do momentu upłynięcia SEKUNDY sekund"
+
+#: src/main/help.c:284
+msgid "SIZE"
+msgstr "ROZMIAR"
+
+#: src/main/help.c:285
+msgid "set estimated data size to SIZE bytes"
+msgstr "ustaw oczekiwany rozmiar danych na ROZMIAR bajtów"
+
+#: src/main/help.c:288
+msgid "if size unknown, show rate vs max rate"
+msgstr ""
+"jeśli rozmiar nie jest znany, wyświetl zestawienie prędkości do maksymalnej "
+"prędkości"
+
+#: src/main/help.c:291
+msgid "count lines instead of bytes"
+msgstr "zliczaj linie zamiast bajty"
+
+#: src/main/help.c:294
+msgid "lines are null-terminated"
+msgstr "linie są zakończone znakiem NUL"
+
+#: src/main/help.c:297
+msgid "update every SEC seconds"
+msgstr "aktualizuj co każde SEKUNDY sekund"
+
+#: src/main/help.c:300
+msgid "compute average rate over past SEC seconds (default 30s)"
+msgstr ""
+"oblicz średnią prędkość transferu na podstawie poprzednich SEKUNDY sekund "
+"(domyślnie 30 s)"
+
+#: src/main/help.c:302
+msgid "WIDTH"
+msgstr "SZEROKOŚĆ"
+
+#: src/main/help.c:303
+msgid "assume terminal is WIDTH characters wide"
+msgstr "przyjmij, że terminal ma szerokość SZEROKOŚĆ znaków"
+
+#: src/main/help.c:305
+msgid "HEIGHT"
+msgstr "WYSOKOŚĆ"
+
+#: src/main/help.c:306
+msgid "assume terminal is HEIGHT rows high"
+msgstr "przyjmij, że terminal ma wysokość WYSOKOŚĆ linii"
+
+#: src/main/help.c:308
+msgid "NAME"
+msgstr "NAZWA"
+
+#: src/main/help.c:309
+msgid "prefix visual information with NAME"
+msgstr "poprzedź informacje prefiksem NAZWA"
+
+#: src/main/help.c:311
+msgid "STYLE"
+msgstr "STYL"
+
+#: src/main/help.c:312
+msgid "set default bar style to NAME"
+msgstr "ustaw domyślny styl paska postępu na STYL"
+
+#: src/main/help.c:314
+msgid "SPEC"
+msgstr "SPEC"
+
+#: src/main/help.c:315
+msgid "also send progress to SPEC"
+msgstr "wysyłaj postęp również do SPEC"
+
+#: src/main/help.c:318
+msgid "output transfer statistics at the end"
+msgstr "wyświetl na końcu statystyki transferu"
+
+#: src/main/help.c:321
+msgid "output even if standard error is not a terminal"
+msgstr "pokaż wyjście nawet standardowe wyjście błędu nie jest terminalem"
+
+#: src/main/help.c:324
+msgid "use cursor positioning escape sequences"
+msgstr "używaj znaków ucieczki do pozycjonowania kursora"
+
+#: src/main/help.c:327 src/main/help.c:360 src/main/help.c:376
+#: src/main/help.c:386
+msgid "FILE"
+msgstr "PLIK"
+
+#: src/main/help.c:328
+msgid "write output to FILE instead of stdout"
+msgstr "zapisz wyjście do PLIK zamiast do wyjścia standardowego"
+
+#: src/main/help.c:330
+msgid "RATE"
+msgstr "PRĘDKOŚĆ"
+
+#: src/main/help.c:331
+msgid "limit transfer to RATE bytes per second"
+msgstr "ogranicz przesyłane dane do PRĘDKOŚĆ bajtów na sekundę"
+
+#: src/main/help.c:333 src/main/help.c:342
+msgid "BYTES"
+msgstr "BAJTY"
+
+#: src/main/help.c:334
+msgid "use a buffer size of BYTES"
+msgstr "użyj bufora o rozmiarze BAJTY"
+
+#: src/main/help.c:337
+msgid "never use splice(), always use read/write"
+msgstr "nigdy nie używaj splice(), zawsze używaj read/write"
+
+#: src/main/help.c:340
+msgid "skip read errors in input"
+msgstr "pomijaj błędy odczytu wejścia"
+
+#: src/main/help.c:343
+msgid "skip errors in BYTES blocks at a time"
+msgstr "pomijaj błędy w blokach po BAJTY bajtów na raz"
+
+#: src/main/help.c:346
+msgid "stop after --size bytes have been transferred"
+msgstr "zakończ po przesłaniu --size bajtów"
+
+#: src/main/help.c:349
+msgid "flush cache to disk after every write"
+msgstr "wymuś zapis pamięci podręcznej na dysk po każdym zapisie"
+
+#: src/main/help.c:352
+msgid "use direct I/O to bypass cache"
+msgstr ""
+"użyj bezpośredniego wejścia/wyjścia celem pominięcia pamięci podręcznej"
+
+#: src/main/help.c:355
+msgid "try to seek instead of writing null bytes"
+msgstr ""
+
+#: src/main/help.c:358
+msgid "discard input instead of writing to output"
+msgstr "zignoruj dane wejściowe zamiast wyświetlić je na wyjściu standardowym"
+
+#: src/main/help.c:361
+msgid "write all input to FILE before writing to output"
+msgstr ""
+"zapisz wszystkie dane wejściowe do PLIK przed wyświetleniem ich na wyjściu"
+
+#: src/main/help.c:364
+msgid "PID[:FD]|=NAME|@LISTFILE"
+msgstr ""
+
+#: src/main/help.c:365
+msgid "watch file FD opened by process PID"
+msgstr "obserwuj plik FD otworzony przez proces PID"
+
+#: src/main/help.c:368 src/main/help.c:371
+msgid "PID"
+msgstr "PID"
+
+#: src/main/help.c:369
+msgid "update settings of process PID"
+msgstr "zaktualizuj ustawienia procesu PID"
+
+#: src/main/help.c:372
+msgid "show progress of process PID"
+msgstr ""
+
+#: src/main/help.c:377
+msgid "save process ID in FILE"
+msgstr "zapisz ID procesu do PLIK"
+
+#: src/main/help.c:380
+msgid "show this help and exit"
+msgstr "wyświetl te informacje z pomocą i wyjdź"
+
+#: src/main/help.c:383
+msgid "show version information and exit"
+msgstr "wyświetl informacje o wersji i wyjdź"
+
+#: src/main/help.c:387
+msgid "write debug logs to FILE"
+msgstr "zapisz logi debugujące do PLIK"
+
+#: src/main/help.c:413
+#, c-format
+msgid "Usage: %s [OPTION] [FILE]..."
+msgstr "Sposób użycia: %s [OPCJA] [PLIK]..."
+
+#: src/main/help.c:424
+msgid ""
+"Concatenate FILE(s), or standard input, to standard output, with monitoring."
+msgstr ""
+"Łączenie PLIK(ów) lub wejścia standardowego, do wyjścia standardowego z "
+"monitoringiem."
+
+#: src/main/help.c:562
+msgid "Supported format sequences:"
+msgstr "Wspierane sekwencje formatowania:"
+
+#: src/main/help.c:576
+#, c-format
+msgid "Please report any bugs to: %s"
+msgstr "Proszę przesyłać zgłoszenia błędów do %s"
+
+#: src/main/main.c:228
+msgid "(input)"
+msgstr "(wejście)"
+
+#: src/main/main.c:330
+msgid "state allocation failed"
+msgstr "alokacja stanu programu nie powiodła się"
+
+#: src/main/options.c:370
+msgid "list files may not contain @ lines"
+msgstr ""
+
+#: src/main/options.c:391 src/main/options.c:393 src/main/options.c:807
+msgid "process ID or pid:fd pair expected"
+msgstr "oczekiwany proces ID lub para PID:FD"
+
+#: src/main/options.c:403 src/main/options.c:405 src/main/options.c:814
+msgid "invalid process ID"
+msgstr "niepoprawne ID procesu"
+
+#: src/main/options.c:448 src/pv/file.c:342
+msgid "failed to stat file"
+msgstr "nie udało się wykonać operacji stat na pliku"
+
+#: src/main/options.c:462
+msgid "is a directory"
+msgstr "jest katalogiem"
+
+#: src/main/options.c:491
+msgid "failed to generate sysfs filename"
+msgstr "nie udało się wygenerować nazwy pliku dla sysfs"
+
+#: src/main/options.c:513
+msgid "failed to read sysfs size file"
+msgstr "nie udało się odczytać rozmiaru pliku sysfs"
+
+#: src/main/options.c:533
+msgid "failed to open block device"
+msgstr "nie udało się otworzyć urządzenia blokowego"
+
+#: src/main/options.c:543
+msgid "failed to determine size of block device"
+msgstr "nie udało się ustalić rozmiaru urządzenia blokowego"
+
+#: src/main/options.c:652
+msgid "option structure allocation failed"
+msgstr "nie udało się zaalokować struktur opcji"
+
+#: src/main/options.c:671
+msgid "option structure argv allocation failed"
+msgstr "nie udało się zaalokować struktur opcji argv"
+
+#: src/main/options.c:723
+msgid "numeric value not understood"
+msgstr "wartość liczbowa niezrozumiana"
+
+#: src/main/options.c:743
+msgid "integer argument expected"
+msgstr "oczekiwany argument typu liczby całkowitej"
+
+#: src/main/options.c:755
+msgid "numeric argument expected"
+msgstr "oczekiwany argument liczbowy"
+
+#: src/main/options.c:767
+msgid "missing filename"
+msgstr ""
+
+#: src/main/options.c:795
+msgid "missing process name"
+msgstr ""
+
+#: src/main/options.c:1056
+#, c-format
+msgid "Try `%s --help' for more information."
+msgstr "Spróbuj `%s --help' by uzyskać więcej informacji."
+
+#: src/main/options.c:1058
+#, c-format
+msgid "Try `%s -h' for more information."
+msgstr "Spróbuj `%s -h' by uzyskać więcej informacji."
+
+#: src/main/options.c:1089
+msgid ""
+"cannot use line mode or transfer modifier options when watching file "
+"descriptors"
+msgstr ""
+"nie można użyć trybu zliczania linii lub opcji modyfikujących przesył "
+"łącznie z opcją obserwowania deskryptorów plików"
+
+#: src/main/options.c:1098
+msgid "cannot use cursor positioning when watching file descriptors"
+msgstr ""
+"nie można użyć pozycjonowania kursora łącznie z opcją obserwowania "
+"deskryptorów plików"
+
+#: src/main/options.c:1107
+msgid "cannot use remote control when watching file descriptors"
+msgstr ""
+"nie można użyć opcji zaktualizowania ustawień procesu łącznie z opcją "
+"obserwowania deskryptorów plików"
+
+#: src/main/options.c:1116
+msgid "cannot use remote query when watching file descriptors"
+msgstr ""
+
+#: src/main/options.c:1125
+msgid "cannot transfer files when watching file descriptors"
+msgstr "nie można przesyłać plików z opcją obserwowania deskryptorów plików"
+
+#: src/main/options.c:1150
+msgid "not available on systems without /proc/self/fdinfo"
+msgstr "niedostępne na systemach bez /proc/self/fdinfo"
+
+#: src/main/options.c:1162
+msgid "cannot use remote control and remote query together"
+msgstr ""
+
+#: src/main/options.c:1189
+msgid "files cannot be specified with this option"
+msgstr ""
+
+#: src/main/version.c:28
+msgid "License: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+msgstr "Licencja: GPLv3+ <https://www.gnu.org/licenses/gpl-3.0.html>"
+
+#: src/main/version.c:29
+msgid "This is free software: you are free to change and redistribute it."
+msgstr "To jest wolne oprogramowanie: masz prawo do zmian i redystrybucji."
+
+#: src/main/version.c:30
+msgid "There is NO WARRANTY, to the extent permitted by law."
+msgstr "Nie udziela się GWARANCJI w zakresie dozwolonym przez prawo."
+
+#: src/main/version.c:32
+msgid "Project web site"
+msgstr "Strona projektu"
+
+#: src/pv/cursor.c:61
+msgid "failed to get terminal name"
+msgstr "nie udało się uzyskać nazwy terminala"
+
+# "Przewidywany czas ukończenia" for ETA is too long
+#: src/pv/cursor.c:106
+msgid "failed to open lock file"
+msgstr "nie udało się otworzyć pliku blokowania zasobów"
+
+#: src/pv/cursor.c:139
+msgid "lock attempt failed"
+msgstr "blokada zasobów nie powiodła się"
+
+#: src/pv/cursor.c:400
+msgid "failed to open terminal"
+msgstr "nie udało się otworzyć terminala"
+
+#: src/pv/display.c:285
+msgid "yzafpnum kMGTPEZY"
+msgstr "yzafpnum kMGTPEZY"
+
+#: src/pv/display.c:303
+msgid "yzafpnum KMGTPEZY"
+msgstr "yzafpnum KMGTPEZY"
+
+#: src/pv/display.c:1053 src/pv/state.c:842 src/pv/transfer.c:1135
+msgid "buffer allocation failed"
+msgstr "nie udało się zaalokować bufora"
+
+#: src/pv/file.c:153
+msgid "failed to seek to start of output"
+msgstr "nie udało się przewinąć wyjścia do początku"
+
+# "Przewidywany czas ukończenia" for ETA is too long
+#: src/pv/file.c:303
+msgid "failed to close file"
+msgstr "nie udało się zamknąć pliku"
+
+#: src/pv/file.c:335
+msgid "failed to read file"
+msgstr "nie udało się odczytać pliku"
+
+#: src/pv/file.c:350
+msgid "failed to stat output file"
+msgstr "nie udało się wykonać operacji stat na pliku wyjściowym"
+
+#: src/pv/file.c:372
+msgid "input file is output file"
+msgstr "plik wejściowy jest zarazem plikiem wyjściowym"
+
+#: src/pv/file.c:429
+msgid "(none)"
+msgstr "(brak)"
+
+#: src/pv/file.c:431
+msgid "(stdin)"
+msgstr "(stdin)"
+
+#: src/pv/format/averagerate.c:34 src/pv/format/progressbar.c:92
+#: src/pv/format/rate.c:36 src/pv/loop.c:121
+msgid "b/s"
+msgstr "b/s"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40
+msgid "/s"
+msgstr "/s"
+
+#: src/pv/format/averagerate.c:38 src/pv/format/progressbar.c:96
+#: src/pv/format/rate.c:40 src/pv/loop.c:121
+msgid "B/s"
+msgstr "B/s"
+
+#: src/pv/format/bytes.c:35
+msgid "b"
+msgstr "b"
+
+#: src/pv/format/bytes.c:39 src/pv/transfer.c:620
+msgid "B"
+msgstr "B"
+
+#: src/pv/format/eta.c:52 src/pv/format/eta.c:56
+msgid "ETA"
+msgstr "ETA"
+
+#: src/pv/format/fineta.c:80
+msgid "FIN"
+msgstr "FIN"
+
+#: src/pv/loop.c:120
+msgid "rate min/avg/max/mdev"
+msgstr "prędkość min/śr/max/odch"
+
+#: src/pv/loop.c:132
+msgid "rate not measured"
+msgstr "prędkość niezmierzona"
+
+#: src/pv/loop.c:802 src/pv/loop.c:818 src/pv/loop.c:836 src/pv/watchpid.c:101
+#: src/pv/watchpid.c:110 src/pv/watchpid.c:121 src/pv/watchpid.c:129
+#: src/pv/watchpid.c:166 src/pv/watchpid.c:185 src/pv/watchpid.c:193
+#: src/pv/watchpid.c:203 src/pv/watchpid.c:307 src/pv/watchpid.c:315
+#: src/pv/watchpid.c:447 src/pv/watchpid.c:470
+msgid "pid"
+msgstr "pid"
+
+#: src/pv/loop.c:836 src/pv/watchpid.c:110 src/pv/watchpid.c:122
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:185 src/pv/watchpid.c:194
+#: src/pv/watchpid.c:205
+msgid "fd"
+msgstr "fd"
+
+#: src/pv/remote.c:237 src/pv/remote.c:622
+msgid "message not received"
+msgstr "wiadomość nieodebrana"
+
+#: src/pv/remote.c:644 src/pv/remote.c:662
+msgid "SA_SIGINFO not supported on this system"
+msgstr "SA_SIGINFO nie jest wspierane na tym systemie"
+
+#: src/pv/state.c:42
+msgid "history structure allocation failed"
+msgstr "nie udało się zaalokować struktury historii"
+
+#: src/pv/state.c:794 src/pv/state.c:806
+msgid "file list allocation failed"
+msgstr "nie udało się zaalokować listy plików"
+
+#: src/pv/transfer.c:490
+msgid "read failed"
+msgstr "błąd odczytu"
+
+#: src/pv/transfer.c:506
+msgid "warning: read errors detected"
+msgstr "ostrzeżenie: błędy odczytu wykryte"
+
+#: src/pv/transfer.c:522
+msgid "file is not seekable"
+msgstr "pliku nie da się przewijać"
+
+#: src/pv/transfer.c:599
+msgid "failed to seek past error"
+msgstr "nie udało się przewinąć za błąd"
+
+#: src/pv/transfer.c:619
+msgid "skipped past read error"
+msgstr "pominięto błąd odczytu"
+
+#: src/pv/transfer.c:663
+msgid "no transfer buffer allocated"
+msgstr "brak zaalokowanego bufora transferu"
+
+#: src/pv/transfer.c:751
+msgid "failed to set interval timer"
+msgstr "nie udało się ustawić interwału czasowego"
+
+# "Przewidywany czas ukończenia" for ETA is too long
+#: src/pv/transfer.c:777
+msgid "failed to clear interval timer"
+msgstr "nie udało się wyczyścić interwału czasowego"
+
+#: src/pv/transfer.c:822
+msgid "line position buffer allocation failed"
+msgstr "alokacja buforu pozycji linii nie powiodła się"
+
+#: src/pv/transfer.c:996
+msgid "write failed"
+msgstr "błąd zapisu"
+
+#: src/pv/transfer.c:1237
+msgid "select call failed"
+msgstr "nie udało się wywołać funkcji select"
+
+#: src/pv/watchpid.c:131 src/pv/watchpid.c:205
+msgid "not a regular file or block device"
+msgstr "plik nie jest plikiem regularnym lub urządzeniem blokowym"
+
+#~ msgid "process list allocation failed"
+#~ msgstr "nie udało się zaalokować listy procesów"
+
+#~ msgid "file descriptor list allocation failed"
+#~ msgstr "nie udało się zaalokować listy deskryptorów plików"
+
+#~ msgid "PID[:FD]"
+#~ msgstr "PID[:FD]"

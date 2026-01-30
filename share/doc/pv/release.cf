@@ -1,0 +1,51 @@
+# Configuration for the foss-release.sh script.
+# The script is here: https://codeberg.org/ivarch/scripts
+
+set maintainer andrew.wood@ivarch.com
+set mainprogram auto
+set version auto
+set mandir docs
+set newsdir docs
+
+export SKIP_VALGRIND_TESTS=1
+
+section Initial checks
+action check_po
+action check_version_news
+action check_version_autoconf
+action check_version_man
+
+section Initial build
+action configure
+action make
+action check_analyse
+action check_version_program
+action check_version_year
+
+section Documentation and source reformatting
+action man_md
+action man_html
+action news_html
+action make_indent
+
+section Update po files
+action make_update_po
+
+section Run autoreconf
+action autoreconf
+
+section Commit check
+action check_git_status
+
+section Release archive
+action check_make_distcheck
+action make_dist
+
+section Lab tests
+action labtest
+
+section Sign release
+action sign_tarball
+
+section Build OS packages
+action parmo_build
